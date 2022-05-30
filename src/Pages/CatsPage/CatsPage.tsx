@@ -1,8 +1,6 @@
 import React, {FC, useEffect, useRef, useMemo} from 'react';
 import s from './CatsPage.module.scss';
 import CatCard from "../../Components/CatCard/CatCard";
-import axios from "axios";
-import {ICats} from "../../types/Cats/types";
 import {getAllCats} from "../../redux/actionCreators/CatsActionCreators";
 import {useAppDispatch, useAppSelector} from "../../redux/store/store";
 import Skelletones from "../../helpers/Skelletones";
@@ -12,8 +10,6 @@ import Loader from "../../Components/Loader/Loader";
 
 
 const CatsPage: FC = (props) => {
-
-
     const {catsDataArray, isLoading, error, totalCatsItems} = useAppSelector(state => state.catsData)
     // how many cats we need  to fetch
     const blocks = useMemo(() => {
@@ -37,7 +33,6 @@ const CatsPage: FC = (props) => {
         }
     }, [dispatch]);
 
-    // return <Loader/>
     return (
         <section className={s['cats-page']}>
             <GridCards>
