@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/TaskCats/static/css/main.1a1f4471.css",
+    "main.js": "/TaskCats/static/js/main.2545e993.js",
+    "static/media/spinnerLoader.gif": "/TaskCats/static/media/spinnerLoader.c5366d89328bfbc91cfd.gif",
+    "index.html": "/TaskCats/index.html",
+    "main.1a1f4471.css.map": "/TaskCats/static/css/main.1a1f4471.css.map",
+    "main.2545e993.js.map": "/TaskCats/static/js/main.2545e993.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a1f4471.css",
+    "static/js/main.2545e993.js"
+  ]
+}
